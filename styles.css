@@ -3,7 +3,7 @@ body, html {
     margin: 0;
 }
 
-p, h1, h2, h3, h4, h5, h6, span, li {
+p, h1, h2, h3, h4, h5, h6, span, li, textarea, input, button {
     font-family: Roboto, Arial, sans-serif;
 }
 
@@ -18,10 +18,9 @@ p, h1, h2, h3, h4, h5, h6, span, li {
 
 .card-outline {
     display: inline-block;
-    height: 80%;
+    height: 90%;
     width: 350px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 10%;
     box-shadow: 5px 10px 50px #777777;
     background-color: #f2f2f2;
 }
@@ -34,8 +33,8 @@ p, h1, h2, h3, h4, h5, h6, span, li {
 }
 
 .divider {
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .hr-divider {
@@ -61,4 +60,27 @@ p, h1, h2, h3, h4, h5, h6, span, li {
 .clickable-icon {
     border-radius: 50%;
     color: #888888;
+}
+
+.send-form {
+    text-align: center;
+}
+
+.email-input {
+    display: inline-block;
+    margin: 5px 100px 5px 100px;
+}
+
+.message-input {
+    display: inline-block;
+    margin: 5px 100px 5px 100px;
+}
+
+.send-button {
+    display: inline-block;
+    color: #f2f2f2;
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+    border: 2px solid #888888;
+    box-shadow: none;
 }
