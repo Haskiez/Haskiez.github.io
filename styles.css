@@ -7,6 +7,10 @@ p, h1, h2, h3, h4, h5, h6, span, li, textarea, input, button {
     font-family: Roboto, Arial, sans-serif;
 }
 
+input, textarea {
+    font-size: 15px;
+}
+
 .bg-image-body {
     background-image: url("images/forrest.png");
     height: 100%; 
@@ -18,17 +22,17 @@ p, h1, h2, h3, h4, h5, h6, span, li, textarea, input, button {
 
 .card-outline {
     display: inline-block;
-    height: 90%;
+    height: 80%;
     width: 350px;
-    margin-top: 10%;
-    box-shadow: 5px 10px 50px #777777;
+    margin-top: 5%;
+    box-shadow: 5px 5px 50px #6d6d6d;
     background-color: #f2f2f2;
 }
 
 .profile-picture {
-    margin-top: 15px;
-    height: 60px;
-    width: 60px;
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
 }
 
@@ -43,12 +47,13 @@ p, h1, h2, h3, h4, h5, h6, span, li, textarea, input, button {
 }
 
 .name {
-    font-size: 15px;
+    font-size: 30px;
     margin-bottom: 0;
+    margin-top: 15px;
 }
 
 .job-title {
-    font-size: 12px;
+    font-size: 17px;
     margin: 0;
 }
 
@@ -62,25 +67,38 @@ p, h1, h2, h3, h4, h5, h6, span, li, textarea, input, button {
     color: #888888;
 }
 
+.contact-title {
+    font-size: 17px;
+}
+
 .send-form {
     text-align: center;
+    padding: 0 20px 0 20px;
 }
 
 .email-input {
     display: inline-block;
-    margin: 5px 100px 5px 100px;
+    width: 200px;
+}
+
+.email-input, .message-input {
+    width: 90%;
+    margin: 5px 0 5px 0;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .message-input {
-    display: inline-block;
-    margin: 5px 100px 5px 100px;
+    resize: none;
 }
 
 .send-button {
     display: inline-block;
-    color: #f2f2f2;
+    color: #777777;
     background-color: #f2f2f2;
     padding: 10px 20px;
-    border: 2px solid #888888;
+    border: 1px solid #777777;
     box-shadow: none;
+    cursor: pointer;
 }

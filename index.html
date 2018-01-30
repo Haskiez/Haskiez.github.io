@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto" rel="stylesheet">
     <script src="https://use.fontawesome.com/f917798517.js"></script>
     <link rel="stylesheet" href="styles.css" type="text/css" />
+    <script type="text/javascript" src="index.js"></script>
     <title>Braden Haskell</title>
 </head>
 <body>
@@ -25,12 +26,19 @@
             <div class="divider">
                 <hr class="hr-divider">
             </div>
-            <p>Contact Me</p>
+            <p class="contact-title">CONTACT ME</p>
             <form action="https://formspree.io/braden.haskell@outlook.com" method="POST">
                 <div class="send-form">
-                    <input class="email-input" type="email" name="_replyto" placeholder="Your email" required>
-                    <textarea class="message-input" name="message" placeholder="Your message" required></textarea>
-                    <button class="send-button">Send</button>
+                    <div>
+                        <input class="email-input" type="email" name="_replyto" placeholder="Your Email" required>
+                    </div>
+                    <div>
+                        <textarea class="message-input" name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" class="send-button" value="SEND"></input>
+                        <input type="hidden" name="_next" value="haskiez.github.io"/>
+                    </div>
                 </div>
             </form>
         </div>
