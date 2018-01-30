@@ -1,0 +1,22 @@
+body, html {
+    height: 100%;
+}
+
+.bg-image-body {
+    background-image: url("images/forrest.png");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.card-outline {
+    display: inline-block;
+    height: 80%;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 5px 10px 50px #777777;
+    background-color: #f2f2f2;
+}
