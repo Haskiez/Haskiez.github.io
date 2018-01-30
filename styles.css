@@ -91,6 +91,7 @@ input, textarea {
 
 .message-input {
     resize: none;
+    height: 75px;
 }
 
 .send-button {
