@@ -105,3 +105,43 @@ input, textarea {
     box-shadow: none;
     cursor: pointer;
 }
+
+.settings-button {
+    color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#settings-menu {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    background-color: #f2f2f2;
+    box-shadow: 5px 5px 50px #6d6d6d;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.settings-menu-options {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-titles {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+}
+
+.menu-items {
+    cursor: pointer;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
