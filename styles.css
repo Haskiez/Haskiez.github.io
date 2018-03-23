@@ -30,13 +30,6 @@ input, textarea {
     background-color: #f2f2f2;
 }
 
-.profile-picture {
-    margin-top: 10px;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-}
-
 .divider {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -144,4 +137,59 @@ input, textarea {
     cursor: pointer;
     padding-bottom: 5px;
     padding-top: 5px;
+}
+
+
+/* CSS GRID REBRAND */
+:root {
+    --font-family: Arial;
+    --navbar-background-color: #e8e8e8;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, minmax(100px, 1fr));
+    grid-auto-rows: 1fr;
+}
+
+.navbar {
+    grid-column: span 2;
+    background-color: var(--navbar-background-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* text-align: center; */
+}
+.profile-pic-div {
+    text-align: center;
+}
+.profile-pic-img {
+    height: 125px;
+    width: 125px;
+    margin-bottom: 20px;
+    /* box-shadow: 0 4px 10px 0; */
+    border-radius: 50%;
+}
+.navlinks {
+    font-family: var(--font-family);
+    margin: 15px;
+    text-decoration: inherit;
+    color: #000;
+    display: flex;
+}
+.navlinks-title {
+    align-self: center;
+}
+.navlinks-icon {
+    margin-left: auto;
+    align-self: center;
+}
+
+
+.content {
+    grid-column: 3 / -1;
 }
